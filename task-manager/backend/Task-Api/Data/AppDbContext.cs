@@ -1,0 +1,1 @@
+public DbSet<TaskItem> Tasks { get; set; }
