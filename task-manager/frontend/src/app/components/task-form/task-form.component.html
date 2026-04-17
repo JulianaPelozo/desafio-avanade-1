@@ -1,0 +1,17 @@
+<div class="task-form">
+  <h3>Nova Tarefa</h3>
+
+  <input
+    type="text"
+    placeholder="Título"
+    [(ngModel)]="task.title"
+  />
+
+  <input
+    type="text"
+    placeholder="Descrição (opcional)"
+    [(ngModel)]="task.description"
+  />
+
+  <button (click)="submit()">Adicionar</button>
+</div>

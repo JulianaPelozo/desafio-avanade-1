@@ -1,31 +1,25 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { TaskService } from '../../services/task.service';
 import { Task } from '../../models/task';
 
 @Component({
-  selector: 'app-task-list',
-  templateUrl: './task-list.component.html',
-  styleUrls: ['./task-list.component.css']
+  selector: 'app-task-form',
+  templateUrl: './task-form.component.html',
+  styleUrls: ['./task-form.component.css']
 })
-export class TaskListComponent implements OnInit {
-  tasks: Task[] = [];
+export class TaskFormComponent {
+  task: Task = { title: '', description: '', isCompleted: false };
+
+  @Output() taskCreated = new EventEmitter<void>();
 
   constructor(private taskService: TaskService) {}
 
-  ngOnInit(): void {
-    this.loadTasks();
-  }
+  submit(): void {
+    if (!this.task.title.trim()) return;
 
-  loadTasks(): void {
-    this.taskService.getTasks().subscribe(tasks => this.tasks = tasks);
-  }
-
-  deleteTask(id: number): void {
-    this.taskService.deleteTask(id).subscribe(() => this.loadTasks());
-  }
-
-  toggleComplete(task: Task): void {
-    task.isCompleted = !task.isCompleted;
-    this.taskService.updateTask(task.id!, task).subscribe();
+    this.taskService.createTask(this.task).subscribe(() => {
+      this.task = { title: '', description: '', isCompleted: false };
+      this.taskCreated.emit(); // avisa o task-list para recarregar
+    });
   }
 }

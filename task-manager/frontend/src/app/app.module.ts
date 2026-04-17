@@ -4,14 +4,19 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TaskListComponent } from './components/task-list/task-list.component';
+import { TaskFormComponent } from './components/task-form/task-form.component';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule, // essencial para as chamadas HTTP
-    FormsModule
+    HttpClientModule, 
+    FormsModule,
+    AppComponent,
+    TaskListComponent,
+    TaskFormComponent
   ],
   bootstrap: [AppComponent]
 })
