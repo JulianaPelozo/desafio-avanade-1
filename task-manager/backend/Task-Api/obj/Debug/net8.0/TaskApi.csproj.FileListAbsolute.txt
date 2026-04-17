@@ -1,0 +1,9 @@
+C:\Users\julia\Documents\desafio-avanade-1\task-manager\backend\task-api\obj\Debug\net8.0\TaskApi.csproj.AssemblyReference.cache
+C:\Users\julia\Documents\desafio-avanade-1\task-manager\backend\task-api\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\julia\Documents\desafio-avanade-1\task-manager\backend\task-api\obj\Debug\net8.0\TaskApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julia\Documents\desafio-avanade-1\task-manager\backend\task-api\obj\Debug\net8.0\TaskApi.AssemblyInfoInputs.cache
+C:\Users\julia\Documents\desafio-avanade-1\task-manager\backend\task-api\obj\Debug\net8.0\TaskApi.AssemblyInfo.cs
+C:\Users\julia\Documents\desafio-avanade-1\task-manager\backend\task-api\obj\Debug\net8.0\TaskApi.csproj.CoreCompileInputs.cache
+C:\Users\julia\Documents\desafio-avanade-1\task-manager\backend\task-api\obj\Debug\net8.0\TaskApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\julia\Documents\desafio-avanade-1\task-manager\backend\task-api\obj\Debug\net8.0\TaskApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\julia\Documents\desafio-avanade-1\task-manager\backend\task-api\obj\Debug\net8.0\TaskApi.sourcelink.json
