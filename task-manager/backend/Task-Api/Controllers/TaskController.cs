@@ -2,7 +2,6 @@
 
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-[TaskController]
 public class TaskController : ControllerBase
 {
     private readonly AppDbContext _context;

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\julia\\Documents\\desafio-avanade-1\\task-manager\\backend\\task-api\\TaskApi.csproj": {}
+    "C:\\Users\\julia\\Documents\\desafio-avanade-1\\task-manager\\backend\\Task-Api\\TaskApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\julia\\Documents\\desafio-avanade-1\\task-manager\\backend\\task-api\\TaskApi.csproj": {
+    "C:\\Users\\julia\\Documents\\desafio-avanade-1\\task-manager\\backend\\Task-Api\\TaskApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julia\\Documents\\desafio-avanade-1\\task-manager\\backend\\task-api\\TaskApi.csproj",
+        "projectUniqueName": "C:\\Users\\julia\\Documents\\desafio-avanade-1\\task-manager\\backend\\Task-Api\\TaskApi.csproj",
         "projectName": "TaskApi",
-        "projectPath": "C:\\Users\\julia\\Documents\\desafio-avanade-1\\task-manager\\backend\\task-api\\TaskApi.csproj",
+        "projectPath": "C:\\Users\\julia\\Documents\\desafio-avanade-1\\task-manager\\backend\\Task-Api\\TaskApi.csproj",
         "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julia\\Documents\\desafio-avanade-1\\task-manager\\backend\\task-api\\obj\\",
+        "outputPath": "C:\\Users\\julia\\Documents\\desafio-avanade-1\\task-manager\\backend\\Task-Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config"
